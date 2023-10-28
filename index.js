@@ -1,4 +1,4 @@
-const { join } = require("node:path");
+const { join } = require("path");
 
 const GM = require("gm");
 
@@ -29,8 +29,8 @@ fastify.listen(
 );
 
 const gm = GM.subClass({
-  imageMagick: "7+",
   appPath: process.env.IMAGE_MAGICK_PATH,
+  imageMagick: "7+",
 });
 
 async function convert() {
