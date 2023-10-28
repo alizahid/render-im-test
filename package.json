@@ -1,0 +1,12 @@
+{
+  "name": "foo",
+  "scripts": {
+    "dev": "node --watch --env-file=.env index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@fastify/static": "^6.11.2",
+    "fastify": "^4.24.3",
+    "gm": "^1.25.0"
+  }
+}
