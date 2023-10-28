@@ -30,8 +30,7 @@ fastify.listen(
 );
 
 const gm = GM.subClass({
-  appPath: process.env.IMAGE_MAGICK_PATH,
-  imageMagick: "7+",
+  imageMagick: true,
 });
 
 async function convert() {
